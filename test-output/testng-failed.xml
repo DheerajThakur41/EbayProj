@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <listeners>
+    <listener class-name="base.Reporting"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <parameter name="platformVersion_" value="8.1.0"/>
+    <parameter name="App_Package_Name_" value="com.amazon.mShop.android.shopping"/>
+    <parameter name="udid_" value="K1AAGF006129CWJ"/>
+    <parameter name="App_Activity_Name_" value="com.amazon.mShop.splashscreen.StartupActivity"/>
+    <parameter name="deviceName_" value="MYPHONE"/>
+    <classes>
+      <class name="TestCases.TestSuite1">
+        <methods>
+          <include name="init"/>
+          <include name="stopServer"/>
+          <include name="startServer"/>
+          <include name="validateSearchResultInSearchPage"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- TestCases.TestSuite1 -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

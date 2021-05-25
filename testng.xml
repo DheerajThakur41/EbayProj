@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="none" thread-count="2">
+
+	<listeners>
+		<listener class-name="base.Reporting"></listener>
+
+	</listeners>
+
+
+	<test name="Test1">
+		<parameter name="deviceName_" value="Redmi" />
+		<parameter name="udid_" value="4146c6dd7d53" />
+		<parameter name="platformVersion_" value="6.0.1" />
+		<parameter name="App_Package_Name_" value="com.amazon.mShop.android.shopping" />
+		<parameter name="App_Activity_Name_"
+			value="com.amazon.mShop.splashscreen.StartupActivity" />
+
+		<classes>
+			<class name="TestCases.TestSuite1" />
+
+		</classes>
+	</test>
+
+
+</suite>

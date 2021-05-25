@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="68369" started-at="2020-06-24T05:53:03Z" finished-at="2020-06-24T05:54:12Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="68369" started-at="2020-06-24T05:53:03Z" finished-at="2020-06-24T05:54:12Z">
+      <class name="TestCases.TestSuite1">
+        <test-method status="PASS" signature="startServer()[pri:0, instance:TestCases.TestSuite1@276438c9]" name="startServer" is-config="true" duration-ms="3736" started-at="2020-06-24T11:22:59Z" finished-at="2020-06-24T11:23:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startServer -->
+        <test-method status="PASS" signature="init(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:TestCases.TestSuite1@276438c9]" name="init" is-config="true" duration-ms="21731" started-at="2020-06-24T11:23:03Z" finished-at="2020-06-24T11:23:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[MYPHONE]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[K1AAGF006129CWJ]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8.1.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[com.amazon.mShop.android.shopping]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.amazon.mShop.splashscreen.StartupActivity]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="validateLoginPage()[pri:1, instance:TestCases.TestSuite1@276438c9]" name="validateLoginPage" duration-ms="6391" started-at="2020-06-24T11:23:25Z" finished-at="2020-06-24T11:23:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginPage -->
+        <test-method status="PASS" signature="validateSearchResultInSearchPage()[pri:2, instance:TestCases.TestSuite1@276438c9]" name="validateSearchResultInSearchPage" duration-ms="15905" started-at="2020-06-24T11:23:31Z" finished-at="2020-06-24T11:23:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateSearchResultInSearchPage -->
+        <test-method status="PASS" signature="addToCart()[pri:3, instance:TestCases.TestSuite1@276438c9]" name="addToCart" duration-ms="24023" started-at="2020-06-24T11:23:47Z" finished-at="2020-06-24T11:24:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCart -->
+        <test-method status="PASS" signature="testScreenRotation()[pri:4, instance:TestCases.TestSuite1@276438c9]" name="testScreenRotation" duration-ms="262" started-at="2020-06-24T11:24:11Z" finished-at="2020-06-24T11:24:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testScreenRotation -->
+        <test-method status="PASS" signature="exit()[pri:0, instance:TestCases.TestSuite1@276438c9]" name="exit" is-config="true" duration-ms="757" started-at="2020-06-24T11:24:12Z" finished-at="2020-06-24T11:24:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- TestCases.TestSuite1 -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
